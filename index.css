@@ -1,0 +1,139 @@
+Skip to content
+ 
+Search…
+All gists
+GitHub
+New gist
+@kerrynordstrom
+  Star 0
+  Fork 0
+  @stephanielingwoodstephanielingwood/top_nav.css
+Created a year ago
+Embed  
+<script src="https://gist.github.com/stephanielingwood/2bba1fe384d32c68ff52.js"></script>
+  Download ZIP
+ Code  Revisions 1
+CSS styling template for a nav bar on the top
+Raw
+ top_nav.css
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+    html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       height: 100%;
+    }
+    #top {
+        margin: 100px;
+    }
+/*
+#top {
+        height: 20px;
+        width: 200px;
+        margin: 100px;
+        position: fixed;
+        padding: 0 -20px;
+        display: inline;
+
+
+    }
+
+ #side {
+    height: 1500px;
+    width: 150px;
+    background-color: #45ADA8;
+    position: fixed;
+    margin-left: -100px;
+    display: inline-block;
+}
+*/
+
+#bottom {
+    height: 400px;
+    width: 200px;
+    background-color: #45ADA8;
+    position:relative;
+    margin-top: 100px;
+
+}
+
+    header {
+        background-color: #416647;
+        color: #000000;
+        padding: 0em 1.5em 0em 1.5em;
+        margin: 20px;
+        font-size: 28px;
+        display: block;
+        border: 10px solid #000000;
+        border-radius: 10px;
+        width: 100%;
+    }
+    nav {
+        float: left;
+    }
+    nav ul {
+        padding: 10px;
+        float: left;
+        border-bottom: none;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        color: green;
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: orange;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
+
+    a:hover {
+        color:white;
+        text-decoration:underline overline;
+
+
+    }
+
+  
+
+ @kerrynordstrom
+  
+            
+ 
+Write  Preview
+
+Leave a comment
+Attach files by dragging & dropping,  Choose Files selecting them, or pasting from the clipboard.
+ Styling with Markdown is supported
+Comment
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
